@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64956a3c-3f1c-416e-aa4e-03b3af6d82b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/ExMoves.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ExMoves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/ExecuteActionsOfKnowItAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/ExecuteActionsOfKnowItAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/characters/KnowItAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/characters/KnowItAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/characters/PersonsWithActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/characters/PersonsWithActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/ExecuteInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/items/ExecuteInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3bakup.iml" beforeDir="false" />
+    <list default="true" id="64956a3c-3f1c-416e-aa4e-03b3af6d82b7" name="Changes" comment="i'm retard =)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/Output.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +42,23 @@
       <option name="presentableId" value="Default" />
       <updated>1672006919450</updated>
       <workItem from="1672006921031" duration="3169000" />
-      <workItem from="1672011487011" duration="2064000" />
+      <workItem from="1672011487011" duration="3794000" />
     </task>
+    <task id="LOCAL-00001" summary="[ADD] add WrongWords.java">
+      <created>1672027884011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672027884011</updated>
+    </task>
+    <task id="LOCAL-00002" summary="i'm retard =)">
+      <created>1672027934581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672027934581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +86,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[ADD] add WrongWords.java" />
+    <MESSAGE value="i'm retard =)" />
+    <option name="LAST_COMMIT_MESSAGE" value="i'm retard =)" />
   </component>
 </project>

@@ -14,25 +14,4 @@ public class Output {
 
 }
 
-//class C1 {
-//
-//    int i = 0;
-//
-//    void fun(){
-//
-//    }
-//
-//}
-//public interface Predicate<T> {
-//    boolean a(T t);
-//}
-//class Main {
-//
-//    public static void main(String[] args) {
-//        var a = new C1();
-//
-//        a.fun(x -> x % 2 == 0);
-//        Predicate<Integer>  a.fun(x -> x>0);
-//    }
-//
-//}
+
