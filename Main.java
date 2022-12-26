@@ -1,9 +1,14 @@
+import Other.City;
+import Other.Criglya;
+import Other.Police;
+import Other.exOther;
 import actions.ExMoves;
+import actions.WrongWords;
 import characters.KnowItAll;
 import items.*;
 
-public class Main implements CreateHorizon, CreateSimpleObjects, CreateMoon, CreateSun, ExecuteInterface{
-    public static void main(String[] args) {
+public class Main implements CreateHorizon, CreateSimpleObjects, CreateMoon, CreateSun, ExecuteInterface, exOther {
+    public static void main(String[] args) throws WrongWords {
         Main main= new Main();
         main.ExecuteActions(main.createHorizon(), (Rocket) main.createRocket());
         Window window= (Window) main.createWindow();
@@ -51,8 +56,15 @@ public class Main implements CreateHorizon, CreateSimpleObjects, CreateMoon, Cre
     }
 
     @Override
-    public void ExecuteActions(Horrizon horrizon, Rocket rocket) {
+    public void ExecuteActions(Horrizon horrizon, Rocket rocket) throws WrongWords {
         ExMoves exMoves = new ExMoves();
         exMoves.ExMoves(horrizon, rocket);
+    }
+
+    @Override
+    public void exOtherActions() {
+        Police police= new Police();
+        City city= new City();
+        police.findcrime(city, new Criglya());
     }
 }

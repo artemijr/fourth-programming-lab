@@ -12,7 +12,6 @@ public class KnowItAll extends PersonsWithActions implements CreateSun, CreateMo
         this.setCondition(Condition.HAPPY);
     }
 
-
     public void see(Horrizon horrizon, Wind wind, KnowItAll knowItAll, Rocket rocket) {
         System.out.println(horrizon.list.toString());
         if (horrizon.list.size() == 6) {
@@ -27,7 +26,6 @@ public class KnowItAll extends PersonsWithActions implements CreateSun, CreateMo
             knowItAll.setCondition(Condition.SAD);
         }
     }
-
     public void sleep(Horrizon horrizon, Wind wind, KnowItAll knowItAll, Rocket rocket) {
         horrizon.list.remove(horrizon.list.size() - 1);
         horrizon.list.add(knowItAll.createMoon());
@@ -38,9 +36,32 @@ public class KnowItAll extends PersonsWithActions implements CreateSun, CreateMo
         horrizon.list.add(knowItAll.createSun());
 
     }
-
-
-
+    public void RunOuT(KnowItAll knowItAll, Street.Home home, Street.Gate gate, Street.Square square){
+        home.list.add(0, knowItAll);
+        home.changeLocation(home, gate, knowItAll);
+        gate.changeLocation(gate, square, knowItAll);
+    }
+    public void lookAtPlatform(){
+        {
+            class platform{
+                public void information(){
+                    System.out.println("Nothing");
+                }
+            }
+            platform platform= new platform();
+            platform.information();
+        }
+        Fuksia fuksia = new Fuksia(){
+            void shake(){
+                System.out.println("KnowItAll shake Fuksia");
+            }
+            {
+                this.shake();
+            }
+        };
+        Sledochka sledochka= new Sledochka();
+        sledochka.information();
+    }
     @Override
     public SimpleObjects createMoon() {
         return new Moon();
@@ -49,5 +70,10 @@ public class KnowItAll extends PersonsWithActions implements CreateSun, CreateMo
     @Override
     public SimpleObjects createSun() {
         return new Sun();
+    }
+    public  class Sledochka{
+        void information(){
+            System.out.println("See with nessesary");
+        }
     }
 }
